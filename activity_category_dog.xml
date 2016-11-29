@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_category_dog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sapnagangwar.projectpetstore.CategoryDog">
+
+
+    <TextView
+        android:id="@+id/tvDogCategory"
+        android:text="Select Breed of the Dog"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/ivBoxer"
+        android:src="@drawable/dog_boxer"
+        android:layout_width="match_parent"
+        android:layout_height="550sp"
+        android:tag="dogBoxer"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tvDogCategoryBoxer"
+        android:text="Boxer"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/ivDachshund"
+        android:src="@drawable/dog_dachshund"
+        android:layout_width="match_parent"
+        android:layout_height="550sp"
+        android:tag="dogDachshund"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/tvDogCategoryDachshund"
+        android:text="Dachshund"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btnBackToPetCategory"
+        android:text="Return to Pet Category"
+        android:onClick="onBtnBackToPetCategory"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+</LinearLayout>

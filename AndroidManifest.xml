@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sapnagangwar.projectpetstore">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectPetCategory"
+            android:label="SelectPetCategory">
+            <intent-filter>
+                <action android:name="android.intent.action.SELECTPETCATEGORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoryDog"
+            android:label="CategoryDog">
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORYDOG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoryCat"
+            android:label="CategoryCat">
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORYCAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoryBird"
+            android:label="CategoryBird">
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORYBIRD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoryFish"
+            android:label="CategoryFish">
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORYFISH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectDogBoxerColor"
+            android:label="SelectDogBoxerColor">
+            <intent-filter>
+                <action android:name="android.intent.action.SELECTDOGBOXERCOLOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PetInfoPage"></activity>
+    </application>
+
+</manifest>

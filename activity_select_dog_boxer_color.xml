@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_dog_boxer_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sapnagangwar.projectpetstore.SelectDogBoxerColor">
+
+
+    <TextView
+        android:id="@+id/tvDogBoxerColor"
+        android:text="Select the color of Dog Boxer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/ivBoxerBlack"
+        android:layout_width="match_parent"
+        android:layout_height="125sp"
+        android:src="@drawable/dog_boxer_black"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:id="@+id/tvBoxerBlack"
+        android:text="Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:id="@+id/ivBoxerBrown"
+        android:layout_width="match_parent"
+        android:layout_height="125sp"
+        android:src="@drawable/dog_boxer_brown"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/tvBoxerBrown"
+        android:text="Brown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:id="@+id/ivBoxerWhite"
+        android:layout_width="match_parent"
+        android:layout_height="125sp"
+        android:src="@drawable/dog_boxer_white"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/tvBoxerWhite"
+        android:text="White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btnBackToCategoryDog"
+        android:text="Return to category Dog"
+        android:onClick="onReturnToCategoryDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+         />
+
+
+</LinearLayout>
